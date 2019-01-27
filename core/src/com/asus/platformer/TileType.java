@@ -52,6 +52,8 @@ public enum TileType {
     static
 
     {
+
+        tileMap = new HashMap<Integer,TileType>();
         for (TileType tileType : TileType.values ())
         {
             tileMap.put ( tileType.getId (), tileType );
